@@ -26,3 +26,17 @@ function jiechen(n) {
         console.log(a);
     }
 }
+//斐波那契数列
+var x = parseInt(window.prompt('input'));
+        function fei(n) {
+            var f = 1,
+                s = 1,
+                t;
+            for (i = 0; i < n - 2; i++) {
+                t = f + s;
+                f = s;
+                s = t;
+            }
+            document.write(t);
+        }
+        fei(x)
