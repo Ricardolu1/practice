@@ -57,3 +57,16 @@ document.write(myArr)
 for (var j = 0; j < 10; j++) {
   myArr[j]()
 }
+
+//计算2的n次幂
+    var n = parseInt(window.prompt('imput'));
+    if (n == 0) {
+        document.write("1");
+    } else {
+        var a = 1;
+        for (i = 0; i < n; i++) {
+            a *= 2;
+        }
+        document.write(a);
+
+    }
