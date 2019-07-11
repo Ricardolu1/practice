@@ -70,3 +70,10 @@ for (var j = 0; j < 10; j++) {
         document.write(a);
 
     }
+    //反向输出三位数
+    var n = parseInt(window.prompt('imput'));
+    var a, b, c;
+    a = n % 10;
+    b = parseInt(n % 100 / 10);
+    c = parseInt(n / 100);
+    document.write(a * 100 + b * 10 + c);
