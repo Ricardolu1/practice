@@ -31,7 +31,8 @@ var x = parseInt(window.prompt("input"))//有修改空间
 function fei(n) {
   if (n==1||n==2){
     document.write(1)
-  }
+    return
+  } 
   var f = 1,
     s = 1,
     t
