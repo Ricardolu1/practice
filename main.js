@@ -82,7 +82,7 @@
 //     c = parseInt(n / 100);
 //     document.write(a * 100 + b * 10 + c);
 
-//实现一个递归,累加
+//实现一个递归，注意用数学归纳法思想，找基例和找链条
 function sum(n) {
   if (n===1) {
     return 1
