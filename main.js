@@ -27,23 +27,23 @@
 //   }
 // }
 //斐波那契数列
-var x = parseInt(window.prompt("input"))//有修改空间
-function fei(n) {
-  if (n==1||n==2){
-    document.write(1)
-    return
-  } 
-  var f = 1,
-    s = 1,
-    t
-  for (i = 0; i < n - 2; i++) {
-    t = f + s
-    f = s
-    s = t
-  }
-  document.write(t)
-}
-fei(x)
+// var x = parseInt(window.prompt("input"))//有修改空间
+// function fei(n) {
+//   if (n==1||n==2){
+//     document.write(1)
+//     return
+//   } 
+//   var f = 1,
+//     s = 1,
+//     t
+//   for (i = 0; i < n - 2; i++) {
+//     t = f + s
+//     f = s
+//     s = t
+//   }
+//   document.write(t)
+// }
+// fei(x)
 
 // //一个关于闭包的问题
 // function test() {
@@ -82,3 +82,12 @@ fei(x)
 //     c = parseInt(n / 100);
 //     document.write(a * 100 + b * 10 + c);
 
+//实现一个递归,累加
+function sum(n) {
+  if (n===1) {
+    return 1
+  }else{
+   return(n + sum(n-1))
+  }
+}
+console.log(sum(500))
