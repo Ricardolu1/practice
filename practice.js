@@ -17,16 +17,59 @@
 // console.log(a)
 
 //关于for循环
-var i=5
-console.log(i)
-function a() {
-  function b() {
-    for ( i = 0; i < 10; i++) {}
-    console.log(i)
-  }
-  b()
-  console.log(i)
-}
+// var i=5
+// console.log(i)
+// function a() {
+//   function b() {
+//     for ( i = 0; i < 10; i++) {}
+//     console.log(i)
+//   }
+//   b()
+//   console.log(i)
+// }
 
-a()
-console.log(i)
+// a()
+// console.log(i)
+
+
+//写一个立即执行函数
+(function() {
+  var parent = document.querySelector('#parent')
+  console.log(parent)
+})()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
