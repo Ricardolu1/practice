@@ -33,12 +33,15 @@
 
 
 //写一个立即执行函数
-(function() {
-  var parent = document.querySelector('#parent')
-  console.log(parent)
-})()
+// (function() {
+//   var parent = document.querySelector('#parent')
+//   console.log(parent)
+// }())
 
-
+{
+  let a=1
+}
+console.log(a)
 
 
 
