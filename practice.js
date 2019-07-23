@@ -38,10 +38,18 @@
 //   console.log(parent)
 // }())
 
-{
-  let a=1
-}
-console.log(a)
+// {
+//   let a=1
+// }
+// console.log(a)
+
+var allDiv=document.querySelectorAll('div')
+console.log(allDiv.length)
+document.body.appendChild(document.createElement('div'))
+// allDiv=document.querySelectorAll('div')
+//让它重新再获取一次，就可以更新allDiv.length了
+
+console.log(allDiv.length)
 
 
 
