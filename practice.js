@@ -43,13 +43,30 @@
 // }
 // console.log(a)
 
-var allDiv=document.querySelectorAll('div')
-console.log(allDiv.length)
-document.body.appendChild(document.createElement('div'))
+// var allDiv=document.querySelectorAll('div')
+// console.log(allDiv.length)
+// document.body.appendChild(document.createElement('div'))
 // allDiv=document.querySelectorAll('div')
 //让它重新再获取一次，就可以更新allDiv.length了
 
-console.log(allDiv.length)
+// console.log(allDiv.length)
+
+//写一个数组去重
+var a=[1,2,3,5,2,2,4,3,'你好',5,"你好"] 
+
+function unique(array) {
+  var temp=[]
+  var hash={}
+  for (let i = 0; i < array.length; i++) {
+    if(hash[a[i]]===undefined){
+      hash[a[i]]=1
+      temp.push(a[i])
+    }
+  }
+  return temp
+}
+
+console.log(unique(a))
 
 
 
