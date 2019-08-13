@@ -86,19 +86,19 @@
 
 
 //从这里看出fuu函数并没有归哪个对象所有，所以在非严格模式下他就归window所有
-obj={
-  foo:function() {
-    'use strict'
-    var a=1
-    function fuu() {
-      var b =2
-      console.log(this)
-    }
-    fuu.call(undefined)
-  }
-}
+// obj={
+//   foo:function() {
+//     // 'use strict'
+//     var a=1
+//     function fuu() {
+//       var b =2
+//       console.log(this)
+//     }
+//     fuu.call(undefined)
+//   }
+// }
 
-obj.foo.call(obj)
+// obj.foo.call(obj)
 
 
 // function foo(a) {

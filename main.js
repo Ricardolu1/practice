@@ -91,3 +91,12 @@
 //   }
 // }
 // console.log(sum(500))
+//实现一个阶乘
+function mutipuly(n) {
+  if (n===0||n===1) {
+    return 1
+  }else{
+    return n*mutipuly(n-1)
+  }
+}
+console.log(mutipuly(2)) 
