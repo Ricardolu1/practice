@@ -100,3 +100,5 @@ function mutipuly(n) {
   }
 }
 console.log(mutipuly(2)) 
+
+//cookiea
